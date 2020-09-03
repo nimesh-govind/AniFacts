@@ -1,9 +1,22 @@
 import React from 'react'
 
-const App = () => {
-  return (
-    <h1>React development has begun!</h1>
-  )
-}
+import Cat from './Cat'
+import CatFacts from './CatFacts'
 
+class App extends React.Component {
+  state = {
+    welcomeStatement: ''
+  }
+
+  render () {
+    return (
+      <>
+
+      <Cat/>
+      <CatFacts/>
+
+      </>
+    )
+  }
+}
 export default App
