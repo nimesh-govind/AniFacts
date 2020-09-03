@@ -12,7 +12,7 @@ export function getCat () {
 
 export function getCatFact () {
   return request
-    .get(`${serverURL}/cats`)
+    .get(`${serverURL}/cat`)
     .then(resp => {
       return resp.body
     })

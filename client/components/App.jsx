@@ -1,20 +1,16 @@
 import React from 'react'
 
-import Cat from './Cat'
-import CatFacts from './CatFacts'
+import CatPage from './CatPage'
+import { Route } from 'react-router-dom'
 
 class App extends React.Component {
   state = {
-    welcomeStatement: ''
   }
 
   render () {
     return (
       <>
-
-      <Cat/>
-      <CatFacts/>
-
+        <Route exact path='/cat' component={CatPage} />
       </>
     )
   }
