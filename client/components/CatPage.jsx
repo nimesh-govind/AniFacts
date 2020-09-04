@@ -4,11 +4,7 @@ import React from 'react'
 
 class CatPage extends React.Component {
   state = {
-    welcomeStatement: ''
-  }
-
-  handleRefresh = () => {
-    this.setState({})
+    newCat: ''
   }
 
   render () {
@@ -16,7 +12,7 @@ class CatPage extends React.Component {
       <>
         <Cat/>
         <CatFacts/>
-        <button onClick={this.handleRefresh}>Refresh</button>
+        <button><a href='#/cat'>Refresh</a></button>
         <button><a href='/'>Home</a></button>
       </>
     )

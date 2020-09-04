@@ -6,9 +6,6 @@ import Home from './Home'
 import DogPage from './DogPage'
 
 class App extends React.Component {
-  state = {
-  }
-
   render () {
     return (
       <>
