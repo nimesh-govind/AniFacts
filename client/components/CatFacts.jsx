@@ -18,8 +18,12 @@ export default class CatFacts extends React.Component {
   render () {
     return (
       <>
-        <h2>Cat Fact</h2>
-        <p>{this.state.kitty}</p>
+      <div className="column is-narrow has-text-centered">
+        <div className="container is-fluid">
+          <h3 className="subtitle is-1 has-background-danger-light">Heres your Cat Fact!</h3>
+          <p className="subtitle is-2 has-text-primary-dark has-background-danger-light">{this.state.kitty}</p>
+        </div>
+      </div>
       </>
     )
   }

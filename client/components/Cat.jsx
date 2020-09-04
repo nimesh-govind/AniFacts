@@ -18,8 +18,16 @@ export default class Cat extends React.Component {
   render () {
     return (
       <>
-        {this.state.kitty && <img style={{ height: '400px', width: '400px' }}
-          src={this.state.kitty}/>}
+
+        <div class="column is-narrow has-text-centered">
+          <h1 class="title is-2 has-background-danger-light">Random Cat picture and fact!</h1>
+          <h1 class="title is-2 has-background-danger-light"> The cat chose you!</h1>
+
+          <div class="container is-flex is-horizontal-center">
+            {this.state.kitty && <img style={{ height: 'auto', width: 'auto' }}
+              src={this.state.kitty} />}
+          </div>
+        </div>
       </>
     )
   }

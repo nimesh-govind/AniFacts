@@ -12,8 +12,13 @@ class CatPage extends React.Component {
       <>
         <Cat/>
         <CatFacts/>
-        <button><a href='#/cat'>Refresh</a></button>
-        <button><a href='/'>Home</a></button>
+        <div className="column is-narrow has-text-centered">
+        <button class="button is-dark is-primary" onClick={() => window.location.reload(false)}>Next Cat</button>
+        <br></br>
+        <br></br>
+        <button class="button is-dark is-primary"><a href='/'>Return to Animals</a></button>
+        </div>
+        
       </>
     )
   }

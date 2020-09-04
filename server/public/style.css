@@ -1,0 +1,35 @@
+.is-horizontal-center {
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+body {
+  background-image: url('./Images/cat.jpg');
+  min-height: 100vh;
+  background-color: #fce3e7;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold 700;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'Comfortaa', cursive;
+
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+} */
