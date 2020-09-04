@@ -1,14 +1,19 @@
 import React from 'react'
+import Cat from './Cat'
+import CatFacts from './CatFacts'
 
-const App = () => {
-  return (
-    <>
-      <h1>React development has begun!</h1>
-      <a class="button">
-       Button
-      </a>
-     </> 
-  )
+class App extends React.Component {
+  state = {
+    welcomeStatement: ''
+  }
+
+  render () {
+    return (
+      <>
+      <Cat/>
+      <CatFacts/>
+      </>
+    )
+  }
 }
-
 export default App
