@@ -9,6 +9,7 @@ class Home extends React.Component {
     return (
       <>
         <h1>Welcome</h1>
+        <button><a href='#/cat'>Cats!</a></button>
       </>
     )
   }

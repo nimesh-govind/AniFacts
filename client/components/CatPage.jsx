@@ -7,11 +7,17 @@ class CatPage extends React.Component {
     welcomeStatement: ''
   }
 
+  handleRefresh = () => {
+    this.setState({})
+  }
+
   render () {
     return (
       <>
         <Cat/>
         <CatFacts/>
+        <button onClick={this.handleRefresh}>Refresh</button>
+        <button><a href='/'>Home</a></button>
       </>
     )
   }
