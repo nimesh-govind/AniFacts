@@ -17,3 +17,10 @@ export function getCatFact () {
       return resp.body
     })
 }
+export function getDog () {
+  return request
+    .get('https://some-random-api.ml/animal/:dog')
+    .then(resp => {
+      return resp.body
+    })
+}
