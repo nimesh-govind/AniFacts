@@ -20,7 +20,7 @@ export default class Cat extends React.Component {
       <>
 
         <div class="column is-narrow has-text-centered">
-          <h1 class="title is-1 has-background-light"> You chose a Cat!</h1>
+          <h1 class="title is-2 has-background-danger-light"> The cat chose you!</h1>
 
           <div class="container is-flex is-horizontal-center">
             {this.state.kitty && <img style={{ height: 'auto', width: 'auto' }}
